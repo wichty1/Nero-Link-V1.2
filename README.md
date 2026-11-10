@@ -2,6 +2,8 @@
 
 A private, local-first web app that tracks every area of your life, with a 3D brain as the home page.
 
+**Live app:** https://wichty1.github.io/Nero-Link-V1.2/ (starts empty for every visitor; whatever you enter stays in your own browser)
+
 - **Private:** everything is stored only in your browser (IndexedDB). There are no accounts, servers, analytics, CDNs or web fonts, and the app makes no network requests to other sites. A Content-Security-Policy in `index.html` blocks them even by accident.
 - **Free:** only open-source npm packages (Vite, TypeScript, three.js, idb).
 - **Works offline** once it has been opened over http(s) (a service worker caches the app), and can be installed as an app from the browser menu.
